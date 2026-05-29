@@ -16,16 +16,35 @@ import { Footer } from "@/components/sections/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Puskar Thapa Magar — Creative Developer Portfolio" },
+      { title: "Puskar Thapa Magar | Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Puskar Thapa Magar — BCA student and software developer crafting cinematic, minimal interfaces with React, Java and motion.",
+          "Puskar Thapa Magar is a developer from Kathmandu, Nepal. Skilled in React, Tailwind CSS, HTML, Java, C, Figma, and Canva. Explore projects, portfolio, and contact information.",
       },
-      { property: "og:title", content: "Puskar Thapa Magar — Creative Developer" },
-      { property: "og:description", content: "Cinematic, premium developer portfolio." },
+      {
+        name: "keywords",
+        content:
+          "Puskar Thapa Magar, Puskar Thapa Magar portfolio, developer Nepal, software developer Kathmandu, React developer Nepal, Tailwind CSS developer, frontend developer Nepal, portfolio website Nepal",
+      },
+      { name: "author", content: "Puskar Thapa Magar" },
+      { property: "og:title", content: "Puskar Thapa Magar | Developer" },
+      {
+        property: "og:description",
+        content: "Portfolio of Puskar Thapa Magar, Developer from Kathmandu, Nepal.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://puskarthapamagar.com.np" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Puskar Thapa Magar | Developer" },
+      {
+        name: "twitter:description",
+        content: "Portfolio of Puskar Thapa Magar, Developer from Kathmandu, Nepal.",
+      },
+      { name: "robots", content: "index, follow" },
     ],
     links: [
+      { rel: "canonical", href: "https://puskarthapamagar.com.np" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {

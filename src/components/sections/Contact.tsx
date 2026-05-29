@@ -100,17 +100,18 @@ export function Contact() {
               <p className="text-xs text-muted-foreground">Kathmandu, Nepal</p>
               <div className="flex items-center gap-2 pt-4">
                 {[
-                  { Icon: Github, href: "https://github.com/puskar29" },
-                  { Icon: Linkedin, href: "https://www.linkedin.com/in/puskar-thapa-magar-0a5b09365/" },
-                  { Icon: FaWhatsapp, href: "https://wa.me/9779766479723" },
-                  { Icon: Facebook, href: "https://www.facebook.com/puskar.magar.453520/" },
-                  { Icon: Instagram, href: "https://www.instagram.com/puskar_magar02/" },
-                ].map(({ Icon, href }, i) => (
+                  { Icon: Github, href: "https://github.com/puskar29", label: "GitHub" },
+                  { Icon: Linkedin, href: "https://www.linkedin.com/in/puskar-thapa-magar-0a5b09365/", label: "LinkedIn" },
+                  { Icon: FaWhatsapp, href: "https://wa.me/9779766479723", label: "WhatsApp" },
+                  { Icon: Facebook, href: "https://www.facebook.com/puskar.magar.453520/", label: "Facebook" },
+                  { Icon: Instagram, href: "https://www.instagram.com/puskar_magar02/", label: "Instagram" },
+                ].map(({ Icon, href, label }, i) => (
                   <a
                     key={i}
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={label}
                     className="grid h-10 w-10 place-items-center rounded-full border border-border/60 text-muted-foreground transition-all hover:scale-110 hover:border-foreground/40 hover:text-foreground"
                   >
                     <Icon className="h-4 w-4" />
