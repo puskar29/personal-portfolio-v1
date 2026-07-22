@@ -18,36 +18,42 @@ const projects: Project[] = [
     title: "Ecommerce Website",
     description: "Modern shop with cart, checkout flow and fully responsive product grids.",
     tech: ["HTML", "CSS", "JavaScript"],
+    href: "https://puskar29.github.io/ecommerce-website/",
   },
   {
     n: "02",
     title: "Cara Ecommerce",
     description: "Multi-page commerce experience with elegant product detail flows.",
     tech: ["HTML", "CSS", "JS"],
+    href: "https://puskar29.github.io/cara-ecommerce-website-responsive/",
   },
   {
     n: "03",
     title: "Weather App",
     description: "Live forecasts with glass UI, geolocation and real-time API integration.",
     tech: ["JavaScript", "REST API"],
+    href: "https://puskar29.github.io/my-weather-app/",
   },
   {
     n: "04",
     title: "Currency Converter",
     description: "Real-time conversion across 150+ currencies with crisp typography.",
     tech: ["JavaScript", "API"],
+    href: "https://puskar29.github.io/currency-converter/",
   },
   {
     n: "05",
     title: "To-Do App",
     description: "Minimal task manager with persistent local state and smooth motion.",
     tech: ["React"],
+    href: "https://puskar29.github.io/to-do-list-app/",
   },
   {
     n: "06",
     title: "Mini Games Suite",
     description: "Rock paper scissors and tic-tac-toe with refined micro-interactions.",
     tech: ["JavaScript"],
+    href: "https://puskar29.github.io/tic-tac-toe/",
   },
 ];
 
